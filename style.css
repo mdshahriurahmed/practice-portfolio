@@ -140,7 +140,7 @@ header {
     font-weight: 700;
 }
 
-.about>p {
+.des {
     font-size: 18px;
     color: #757575;
     text-align: center;
@@ -151,6 +151,22 @@ header {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 160px;
+    height: 280px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    text-align: left;
+    padding: 30px;
+
+}
+
+.card img {
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width:1224px) {
@@ -202,6 +218,10 @@ header {
         margin: 120px 0px;
 
     }
+
+    .personData {
+        grid-template-columns: auto auto;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -225,11 +245,7 @@ header {
         text-align: center;
     }
 
-    .personData {
 
-        grid-template-columns: auto auto;
-
-    }
 
     .personData h4 {
         margin-bottom: 20px;
