@@ -3,6 +3,8 @@
 
 * {
     font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav a {
@@ -27,18 +29,50 @@ nav a {
     color: #474747;
 }
 
+.textLight {
+    color: #757575;
+}
+
 .logo {
     font-weight: 900;
     font-size: 45px;
 }
 
 .btnPrimary {
-    border: none;
+    border: 2px solid #FD6E0A;
     padding: 10px 25px;
     font-weight: 700;
     font-size: 20px;
     color: white;
     border-radius: 5px;
+}
+
+.btnLight {
+    border: 2px solid #FD6E0A;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    height: 450px;
+    width: auto;
+}
+
+.rightdiv {
+    display: flex;
+    justify-content: end;
 }
 
 .container {
@@ -65,6 +99,69 @@ nav {
     display: none;
 }
 
+header {
+    background-image: url("./images/developer.png"), url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-size: cover; */
+}
+
+.leftdiv h3 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.leftdiv h1 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.leftdiv p {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+
+.leftdiv i {
+    margin-right: 10px;
+}
+
+/* .leftdiv {
+    padding-left: 120px;
+} */
+
+@media screen and (max-width:1224px) {
+    .leftdiv h3 {
+        font-size: 30px;
+
+    }
+
+    .leftdiv h1 {
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    .leftdiv p {
+
+        margin-top: 10px;
+    }
+
+    .btnPrimary {
+
+        padding: 5px 15px;
+        font-size: 15px;
+
+    }
+
+    .btnLight {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+
+}
+
 @media screen and (max-width:1024px) {
     .container {
         padding: 0px 10px;
@@ -83,5 +180,17 @@ nav {
 
     .bar {
         display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+
+    .leftdiv {
+        text-align: center;
     }
 }
