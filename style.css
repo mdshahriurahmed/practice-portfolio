@@ -127,9 +127,31 @@ header {
     margin-right: 10px;
 }
 
-/* .leftdiv {
-    padding-left: 120px;
-} */
+.about {
+    background-color: #fae7d9;
+    padding: 130px 150px;
+    margin: 120px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.about>p {
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+.personData {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 30px;
+}
 
 @media screen and (max-width:1224px) {
     .leftdiv h3 {
@@ -159,6 +181,10 @@ header {
         font-size: 15px;
     }
 
+    .about {
+        padding: 30px 50px;
+
+    }
 
 }
 
@@ -170,6 +196,11 @@ header {
     .menus a {
 
         margin-left: 20px;
+    }
+
+    .about {
+        margin: 120px 0px;
+
     }
 }
 
@@ -192,5 +223,24 @@ header {
 
     .leftdiv {
         text-align: center;
+    }
+
+    .personData {
+
+        grid-template-columns: auto auto;
+
+    }
+
+    .personData h4 {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .personData {
+
+        grid-template-columns: auto;
+
     }
 }
