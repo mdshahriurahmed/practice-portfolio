@@ -5,19 +5,18 @@
     font-family: "Open Sans", sans-serif;
     margin: 0px;
     padding: 0px;
-
 }
 
 .textPrimary {
     color: #FD6E0A;
 }
 
-
 .textLightDark {
     color: #474747;
 }
 
-.textLight {
+.textLight,
+.des {
     color: #757575;
 }
 
@@ -53,12 +52,9 @@ nav {
     border-radius: 5px;
 }
 
-
-
 .btnPrimary {
     background-color: #FD6E0A;
     color: white;
-
 }
 
 .btnLight {
@@ -100,8 +96,6 @@ nav {
     margin-left: 51px;
 }
 
-
-
 .bar i {
     font-size: 25px;
 }
@@ -116,7 +110,6 @@ header {
     background-position: top left;
     background-size: contain;
     background-color: #FFF8F3;
-
 }
 
 .leftdiv h3 {
@@ -133,8 +126,6 @@ header {
     margin-bottom: 30px;
     margin-top: 15px;
 }
-
-
 
 .leftdiv i {
     margin-right: 10px;
@@ -160,7 +151,6 @@ header {
 
 .des {
     font-size: 18px;
-    color: #757575;
     text-align: center;
 }
 
@@ -180,7 +170,6 @@ header {
     border-radius: 5px;
     text-align: left;
     padding: 30px;
-
 }
 
 .card img {
@@ -195,7 +184,6 @@ header {
 .resumeCard {
     height: 160px;
     margin-top: 25px;
-
 }
 
 .resumeWidth {
@@ -255,9 +243,7 @@ footer {
     width: 100%;
     padding: 20px;
     border: 2px solid transparent;
-    /* transparent border, tai black dekhabe na */
     outline: none;
-    /* default blue outline off */
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -268,25 +254,19 @@ footer {
 
 .inputForm input:not([type="submit"]) {
     height: 64px;
-
 }
 
 .inputForm input[type="submit"] {
     cursor: pointer;
-
 }
 
 .inputForm textarea {
     height: 180px;
-
 }
-
-
 
 @media screen and (max-width:1224px) {
     .leftdiv h3 {
         font-size: 30px;
-
     }
 
     .leftdiv h1 {
@@ -295,15 +275,12 @@ footer {
     }
 
     .leftdiv p {
-
         margin-top: 10px;
     }
 
     .btnPrimary {
-
         padding: 5px 15px;
         font-size: 15px;
-
     }
 
     .btnLight {
@@ -313,7 +290,6 @@ footer {
 
     .about {
         padding: 30px 50px;
-
     }
 
     .hero img {
@@ -333,7 +309,6 @@ footer {
     .footerMain {
         padding-top: 10px;
         padding-bottom: 10px;
-
     }
 
     .container2 {
@@ -341,13 +316,11 @@ footer {
     }
 
     .menus a {
-
         margin-left: 20px;
     }
 
     .about {
         margin: 120px 0px;
-
     }
 
     .skill {
@@ -357,8 +330,6 @@ footer {
     .personData {
         grid-template-columns: auto auto;
     }
-
-
 }
 
 @media screen and (max-width:768px) {
@@ -403,21 +374,14 @@ footer {
         padding-right: 0px;
     }
 
-
-
     .resumeCard {
         height: auto;
         padding-bottom: 20px;
-
     }
-
-
 }
 
 @media screen and (max-width:480px) {
     .personData {
-
         grid-template-columns: auto;
-
     }
 }
