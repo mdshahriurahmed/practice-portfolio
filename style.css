@@ -5,10 +5,7 @@
     font-family: "Open Sans", sans-serif;
     margin: 0px;
     padding: 0px;
-}
 
-nav a {
-    text-decoration: none;
 }
 
 .textPrimary {
@@ -22,6 +19,24 @@ nav a {
 
 .textLight {
     color: #757575;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFF8F3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
 }
 
 .logo {
@@ -59,6 +74,7 @@ nav a {
     display: flex;
     align-items: center;
     height: 670px;
+    margin-top: 60px;
 }
 
 .rightdiv {
@@ -84,12 +100,7 @@ nav a {
     margin-left: 51px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-}
 
 .bar i {
     font-size: 25px;
