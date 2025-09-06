@@ -38,6 +38,8 @@ nav a {
     border-radius: 5px;
 }
 
+
+
 .btnPrimary {
     background-color: #FD6E0A;
     color: white;
@@ -206,6 +208,70 @@ hr {
     text-align: center;
 }
 
+/* footer section code here */
+footer {
+    background-color: #FFF8F3;
+
+}
+
+.footerMain {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.footerLeft {
+    padding-right: 40px;
+}
+
+.footerLeft img {
+    margin: 0 5px;
+}
+
+.footerTitle {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid transparent;
+    /* transparent border, tai black dekhabe na */
+    outline: none;
+    /* default blue outline off */
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.inputs:focus {
+    border: 2px solid #FD6E0A;
+}
+
+.inputForm input:not([type="submit"]) {
+    height: 64px;
+
+}
+
+.inputForm input[type="submit"] {
+    cursor: pointer;
+
+}
+
+.inputForm textarea {
+    height: 180px;
+
+}
+
+
+
 @media screen and (max-width:1224px) {
     .leftdiv h3 {
         font-size: 30px;
@@ -251,6 +317,12 @@ hr {
 @media screen and (max-width:1024px) {
     .container {
         padding: 0px 10px;
+    }
+
+    .footerMain {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
     }
 
     .container2 {
@@ -310,9 +382,14 @@ hr {
         margin-bottom: 20px;
     }
 
-    .resume {
+    .resume,
+    .footerMain {
         flex-direction: column;
         text-align: center;
+    }
+
+    .footerLeft {
+        padding-right: 0px;
     }
 
 
@@ -322,6 +399,7 @@ hr {
         padding-bottom: 20px;
 
     }
+
 
 }
 
