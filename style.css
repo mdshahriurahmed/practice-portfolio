@@ -174,6 +174,38 @@ header {
     margin-bottom: 30px;
 }
 
+/* resume summary css */
+.resume {
+    display: flex;
+}
+
+.resumeCard {
+    height: 160px;
+    margin-top: 25px;
+
+}
+
+.resumeWidth {
+    padding: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #D1D1D1;
+}
+
+.fieldTitle {
+    margin-bottom: 10px;
+}
+
+.place {
+    margin-bottom: 13px;
+}
+
+.btnresume {
+    text-align: center;
+}
+
 @media screen and (max-width:1224px) {
     .leftdiv h3 {
         font-size: 30px;
@@ -236,16 +268,13 @@ header {
     }
 
     .skill {
-        margin: 0px;
+        margin: 0px 0px 50px 0px;
     }
 
     .personData {
         grid-template-columns: auto auto;
     }
 
-    /* .hero {
-    height: 300px;
-} */
 
 }
 
@@ -279,6 +308,19 @@ header {
 
     .personData h4 {
         margin-bottom: 20px;
+    }
+
+    .resume {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .resumeCard {
+        height: auto;
+        padding-bottom: 20px;
+
     }
 
 }
